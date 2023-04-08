@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+}
+
+#upperBackground {
+  background-color: red;
+  height: 50vh;
+}
+
+#lowerBackground {
+  background-color: green;
+  height: 50vh;
+}
+
+#dropBtn {
+  position: absolute;
+}
+
+#indexBtnsContainer {
+  position: absolute;
+  display: flex;
+
+  top: 45vh;
+  left: 35vw;
+}
+
+#indexBtnsContainer > .btns {
+  margin-left: 2em;
+}
+
+#dropBtn {
+  top: 2em;
+  left: 2em;
+}
+
+.btns {
+  border-radius: 20px;
+  width: 6em;
+  height: 6em;
+}
+
+.btns:hover {
+  animation-name: changeSize;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes changeSize {
+  100% {
+    position: relative;
+    width: 7em;
+    height: 7em;
+  }
+}
