@@ -3,8 +3,12 @@ body {
 }
 
 #upperBackground {
-  background-color: red;
-  height: 50vh;
+  background-image: url("../images/stockPhoto1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 50%;
+  width: 100vw;
+  height: 100vh;
 }
 
 #lowerBackground {
@@ -14,18 +18,26 @@ body {
 
 #dropBtn {
   position: absolute;
+  width: 8vw;
+  height: 5vh;
 }
 
 #indexBtnsContainer {
   position: absolute;
   display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  height: 50vh;
 
-  top: 45vh;
-  left: 35vw;
+  top: 5vh;
+  left: 25vw;
 }
 
 #indexBtnsContainer > .btns {
   margin-left: 2em;
+  margin-top: 3em;
+  width: 40vw;
+  height: 15vh;
 }
 
 #dropBtn {
@@ -37,18 +49,4 @@ body {
   border-radius: 20px;
   width: 6em;
   height: 6em;
-}
-
-.btns:hover {
-  animation-name: changeSize;
-  animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards;
-}
-
-@keyframes changeSize {
-  100% {
-    position: relative;
-    width: 7em;
-    height: 7em;
-  }
 }
