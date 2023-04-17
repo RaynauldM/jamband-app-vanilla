@@ -1,4 +1,5 @@
-const test = document.querySelector("h3");
+import * as myData from "../data/data.js";
+
 const btns = document.getElementsByClassName("btns");
 
 function handleClick(event) {
@@ -9,6 +10,10 @@ function handleClick(event) {
       break;
     case "sendBtn":
       document.location = "../html/aanmeldPage.html";
+      break;
+    case "backBtn":
+      document.location = "../html/index.html";
+      break;
   }
 }
 

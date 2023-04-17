@@ -2,18 +2,13 @@ body {
   background-color: black;
 }
 
-#upperBackground {
+#background {
   background-image: url("../images/stockPhoto1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 10% 50%;
   width: 100vw;
   height: 100vh;
-}
-
-#lowerBackground {
-  background-color: green;
-  height: 50vh;
 }
 
 #dropBtn {
@@ -43,6 +38,12 @@ body {
 #dropBtn {
   top: 2em;
   left: 2em;
+}
+
+#setlistOutputContainer {
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
 }
 
 .btns {
