@@ -7,5 +7,3 @@ let output = "";
 myData.setListArr.forEach((element) => (output += `<li>${element}</li>`));
 
 setlistOutput.innerHTML = output;
-
-console.log(myData.setListArr);

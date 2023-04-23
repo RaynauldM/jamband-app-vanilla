@@ -7,8 +7,52 @@
     <title>Aanmeldpagina</title>
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/aanmeld.css" />
+    <script
+      src="https://kit.fontawesome.com/da9ac3b3bf.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h2>Aanmeld pagina!</h2>
+    <main>
+      <button id="dropBtn">
+        <i class="fa-solid fa-grip-lines"></i>
+      </button>
+      <div id="background">
+        <div id="formContainer">
+          <form name="aanmeld" method="POST" data-netlify="true">
+            <p>
+              <label
+                >Nummer:<br />
+                <input type="text" name="nummer"
+              /></label>
+            </p>
+            <p>
+              <label>Artiest: <br /><input type="text" name="artiest" /></label>
+            </p>
+            <p>
+              <label>Jouw naam: <br /><input type="text" name="naam" /></label>
+            </p>
+            <p>
+              <label
+                >Jouw instrument: <br /><input type="text" name="instrument"
+              /></label>
+            </p>
+            <p>
+              <label
+                >Bijzonderheden: <br /><textarea
+                  name="bijzonderheden"
+                ></textarea>
+              </label>
+            </p>
+            <p>
+              <button type="submit">verstuur</button>
+            </p>
+          </form>
+        </div>
+        <button id="backBtn" class="btns">terug</button>
+      </div>
+    </main>
+    <script src="../js/index.js" type="module"></script>
   </body>
 </html>

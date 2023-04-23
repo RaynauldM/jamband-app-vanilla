@@ -1,0 +1,10 @@
+#setlistOutputContainer {
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+}
+
+#setlistOutput {
+  border: 2px green solid;
+  background-color: whitesmoke;
+}
