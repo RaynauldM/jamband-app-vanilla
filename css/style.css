@@ -1,9 +1,10 @@
 body {
-  background-color: black;
+  background-color: #0a1f22;
 }
 
 header {
   padding-top: 1em;
+  color: #fffefe;
 }
 
 h1 {
@@ -17,10 +18,10 @@ h2 {
 }
 
 #background {
-  background-image: url("../images/stockPhoto1.png");
+  background-image: url("../images/helsdeurLogo1.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 10% 50%;
+  background-size: contain;
+  background-position: 50% 40%;
   width: 100vw;
   height: 100vh;
 }

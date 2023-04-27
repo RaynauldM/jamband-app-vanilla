@@ -1,6 +1,7 @@
 const btns = document.getElementsByClassName("btns");
 const header = document.querySelector("header");
 let hh2 = header.querySelector("h2");
+let backGround = document.getElementById("background");
 
 function handleClick(event) {
   const { id } = event.target;
