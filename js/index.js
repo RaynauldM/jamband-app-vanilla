@@ -1,6 +1,6 @@
-import * as myData from "../data/data.js";
-
 const btns = document.getElementsByClassName("btns");
+const header = document.querySelector("header");
+let hh2 = header.querySelector("h2");
 
 function handleClick(event) {
   const { id } = event.target;
@@ -14,9 +14,24 @@ function handleClick(event) {
     case "backBtn":
       document.location = "../html/index.html";
       break;
+    case "infoBtn":
+      document.location = "../html/informatiePage.html";
+      break;
   }
 }
 
 for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", handleClick);
+}
+
+const thisUrl = window.location.href;
+
+if (thisUrl.includes("/index.html")) {
+  hh2.textContent = "--Welkom--";
+} else if (thisUrl.includes("/setlijstPage.html")) {
+  hh2.textContent = "--Setlijst--";
+} else if (thisUrl.includes("/aanmeldPage.html")) {
+  hh2.textContent = "--Aanmelden--";
+} else {
+  hh2.textContent = "--Informatie--";
 }

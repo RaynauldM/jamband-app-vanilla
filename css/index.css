@@ -1,0 +1,17 @@
+#indexBtnsContainer {
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  height: 50vh;
+
+  top: 27vh;
+  left: 25vw;
+}
+
+#indexBtnsContainer > .btns {
+  margin-left: 2em;
+  margin-top: 3em;
+  width: 40vw;
+  height: 15vh;
+}

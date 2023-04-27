@@ -2,6 +2,20 @@ body {
   background-color: black;
 }
 
+header {
+  padding-top: 1em;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 1.4em;
+}
+
 #background {
   background-image: url("../images/stockPhoto1.png");
   background-repeat: no-repeat;
@@ -9,35 +23,6 @@ body {
   background-position: 10% 50%;
   width: 100vw;
   height: 100vh;
-}
-
-#dropBtn {
-  position: absolute;
-  width: 8vw;
-  height: 5vh;
-}
-
-#indexBtnsContainer {
-  position: absolute;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-evenly;
-  height: 50vh;
-
-  top: 5vh;
-  left: 25vw;
-}
-
-#indexBtnsContainer > .btns {
-  margin-left: 2em;
-  margin-top: 3em;
-  width: 40vw;
-  height: 15vh;
-}
-
-#dropBtn {
-  top: 2em;
-  left: 2em;
 }
 
 .btns {
