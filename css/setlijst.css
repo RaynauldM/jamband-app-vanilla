@@ -1,20 +1,31 @@
-#setlistOutputContainer {
-  position: absolute;
-  top: 25vh;
-  left: 17vw;
-}
-
-#setlistOutput {
-  background-color: whitesmoke;
-  opacity: 0.9;
-  text-align: center;
-  margin-bottom: 2em;
-}
-
 li {
   padding-bottom: 0.5em;
 }
 
 ul:first-child {
   padding-top: 0.4em;
+}
+
+#setlistOutputContainer {
+  position: absolute;
+  top: 33vh;
+  left: 13vw;
+}
+
+#setlistOutput {
+  background-color: whitesmoke;
+  opacity: 0.7;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#spotifyBtn {
+  margin-bottom: 2em;
+  padding: 0px;
+  margin: 0px;
+}
+
+#setListBtnContainer {
+  display: flex;
+  justify-content: space-evenly;
 }

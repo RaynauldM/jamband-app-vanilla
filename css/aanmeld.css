@@ -1,16 +1,19 @@
 #backBtn {
   position: absolute;
-  top: 80vh;
+  top: 95vh;
   left: 25vw;
   width: 50vw;
 }
 
 #formContainer {
   position: absolute;
-  top: 20vh;
-  left: 25vw;
-  background-color: whitesmoke;
+  top: 33vh;
+
+  background-color: #0a1f22;
   text-align: center;
+  color: #fffefe;
+  opacity: 0.9;
+  width: 100vw;
 }
 
 #formContainer input,
@@ -21,6 +24,7 @@ textarea {
 
 #formContainer p {
   margin-top: 1em;
+  font-size: 1.5em;
 }
 
 #formContainer button {

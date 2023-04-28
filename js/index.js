@@ -31,6 +31,9 @@ if (thisUrl.includes("/index.html")) {
   hh2.textContent = "--Welkom--";
 } else if (thisUrl.includes("/setlijstPage.html")) {
   hh2.textContent = "--Setlijst--";
+  backGround.style.backgroundImage = 'url("../images/stockPhoto1.png")';
+  backGround.style.backgroundSize = "cover";
+  backGround.style.backgroundPosition = "32% 40%";
 } else if (thisUrl.includes("/aanmeldPage.html")) {
   hh2.textContent = "--Aanmelden--";
 } else {

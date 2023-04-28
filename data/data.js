@@ -1,3 +1,11 @@
+export const whenData = "28-04-2023";
+export const whoData = [
+  "Peter Koole",
+  "Marcel Faas",
+  "Jur de Boer",
+  "Raynauld Minkema",
+];
+
 export let spotifyURL =
   "https://open.spotify.com/playlist/0DJCPFhnw5bawptCpgCcMh?si=1fe15f5940324687";
 
