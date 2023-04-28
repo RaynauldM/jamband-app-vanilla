@@ -13,7 +13,7 @@ function handleClick(event) {
       document.location = "../html/aanmeldPage.html";
       break;
     case "backBtn":
-      document.location = "../html/index.html";
+      document.location = "../index.html";
       break;
     case "infoBtn":
       document.location = "../html/informatiePage.html";
