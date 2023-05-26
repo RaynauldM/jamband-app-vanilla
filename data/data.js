@@ -1,44 +1,36 @@
-export const whenData = "28-04-2023";
+export const whenData = "26-05-2023";
 export const whoData = [
   "Peter Koole",
   "Marcel Faas",
-  "Jur de Boer",
+  "Ron van der Park",
   "Raynauld Minkema",
 ];
 
 export let spotifyURL =
-  "https://open.spotify.com/playlist/0DJCPFhnw5bawptCpgCcMh?si=1fe15f5940324687";
+  "https://open.spotify.com/playlist/50VuVwuEVUY45WrasQhp9S?si=5aad93df21a947c2";
 
 //setlist artiest - nummer
 export let setListArr = [
-  "Zz Top - Tush",
-  "Liquido - Narcotic",
+  "Eric Clapton - Cocaine",
+  "Faith No More - Easy",
+  "Lynyrd Skynyrd - Sweet Home Alabama",
+  "Prince - Purple Rain",
+  "U2 - One",
+  "Tina Turner - Proud Mary",
+  "Pearl Jam - Jeremy",
+  "ZZ Top - Tush",
   "Lenny Kravitz - Always On The Run",
   "Wild Cherry - Play That Funky Music",
-  "Pearl Jam - Jeremy",
-  "Prince - Purple Rain",
   "Brainbox - Summertime",
-  "Jimi Hendrix - Little Wing",
-  "Stevie Ray Vaughan - Pride and Joy",
-  "CCR - Have You Ever Seen The Rain",
-  "Herman Brood - Never Be Clever",
-  "Guns N Roses - Knocking On Heavens Door",
+  "Jimmy Hendrix - Little Wing",
+  "Herman Brood And His Wild Romance - Never Be Clever",
+  "Guns n Roses - Knocking On Heavens Door",
   "Radiohead - Creep",
-  "Bob Marley and The Wailers - Stir It Up",
-  "Ben E King - Stand By Me",
+  "Bob Marley - Stir It Up",
   "Chris Stapleton - Tennessee Whiskey",
-  "ZZ Top - Jesus Left Chicago",
-  "The Beatles - Come Together",
-  "Sublime - Santeria",
-  "De Dijk - Ik Kan Het Niet Alleen",
-  "The Beatles - I Saw Her Standing There",
-  "Lynyrd Skynyrd - Sweet Home Alabama",
-  "Elvis Presley - Burning Love",
-  "The Scene - Iedereen Is Van De Wereld",
-  "Elvis Presley - Hound Dog",
-  "Golden Earring - Twilight Zone",
-  "U2 - One",
-  "Jimi Hendrix - Hey Joe",
+  "De Dijk - Ik kan het niet alleen",
+  "Black Crowes - Hard To Handle",
+  "Thin Lizzy - Still In Love With You",
 ];
 
 export let setListArrArtists = [];

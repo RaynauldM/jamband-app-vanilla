@@ -9,7 +9,8 @@ ul:first-child {
 #setlistOutputContainer {
   position: absolute;
   top: 33vh;
-  left: 13vw;
+  left: 10vw;
+  margin-right: 2em;
 }
 
 #setlistOutput {
